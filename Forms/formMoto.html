@@ -7,129 +7,38 @@
     <title>Dornelles Seguros</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
-    <body>
-        <div class="formContainer">
-            <nav class="navbar">
-                <ul>
-                    <div class="nav-container">
-                        <div class="navbarToggle" id="mobile-menu">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                        </div>
-                        <div class="navbarMenu">
-                            <li>
-                                <a href="#main">
-                                    <span class="nav-item-home">Home</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Sobre">
-                                    <span class="nav-item">Serviços</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#contato">
-                                    <span class="nav-item">Contato</span>
-                                </a>
-                            </li>
-                            <div>
-                                <li>
-                                    <a href="../vida.html">
-                                        <span class="nav-item-start">Vida</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="../auto.html">
-                                        <span class="nav-item">Auto</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="../casa.html">
-                                        <span class="nav-item">Casa</span>
-                                    </a>
-                                </li>
-                            </div>
-                        </div>
-                    </div>
-                </ul>
-            </nav>
-            <div>
-                <form>
-                    <section>
-                        <label for="nome">Nome Completo:</label>
-                        <input type="text" id="nome" name="nome" required>
-
-                        <label for="estado-civil">Estado Civil:</label>
-                        <select id="estado-civil" name="estado-civil" required>
-                            <option value=""></option>
-                            <option value="solteiro">Solteiro(a)</option>
-                            <option value="casado">Casado(a)</option>
-                            <option value="divorciado">Divorciado(a)</option>
-                            <option value="viuvo">Viúvo(a)</option>
-                        </select>
-
-                        <br>
-                        <label for="cep">CEP:</label>
-                        <input type="number" id="cep" name="cep" required>
-
-                        <label for="data-nascimento">Data de Nascimento:</label>
-                        <input type="date" id="data-nascimento" name="data-nascimento" required>
-
-                        <label for="genero">Gênero:</label>
-                        <br>
-                        <select id="genero" name="genero" required>
-                            <option value=""></option>
-                            <option value="masculino">Masculino</option>
-                            <option value="feminino">Feminino</option>
-                            <option value="outro">Outro</option>
-                        </select>
-                        <br>
-                        <label for="modelo-carro">Marca do Veículo:</label>
-                        <select id="modelo-carro" name="modelo-carro" required>
-                            <option value=""></option>
-                            <option value="amazon">Amazon</option>
-                            <option value="avellox">Avellox</option>
-                            <option value="bajaj">Bajaj</option>
-                            <option value="bmw">BMW</option>
-                            <option value="brp">BRP</option>
-                            <option value="bull">Bull</option>
-                            <option value="cfmoto">CFMoto</option>
-                            <option value="dafra">Dafra</option>
-                            <option value="ducati">Ducati</option>
-                            <option value="haojue">Haojue</option>
-                            <option value="harley">Harley-Davidson</option>
-                            <option value="honda-moto">Honda</option>
-                            <option value="kawasaki">Kawasaki</option>
-                            <option value="ktm">KTM</option>
-                            <option value="kymco">Kymco</option>
-                            <option value="ll">LL Motors</option>
-                            <option value="motocar">Motocar</option>
-                            <option value="motorino">Motorino</option>
-                            <option value="mottu">Mottu</option>
-                            <option value="royal-enfield">Royal Enfield</option>
-                            <option value="shineray">Shineray</option>
-                            <option value="sousa">Sousa</option>
-                            <option value="suzuki-moto">Suzuki</option>
-                            <option value="traxx">Traxx</option>
-                            <option value="triumph-moto">Triumph</option>
-                            <option value="vespa">Vespa</option>
-                            <option value="vmoto">Vmoto</option>
-                            <option value="voltz">Voltz</option>
-                            <option value="watts">Watts</option>
-                            <option value="yamaha">Yamaha</option>
-                        </select>
-
-                        <label for="modelo">Modelo:</label>
-                        <input type="text" id="modelo" name="modelo" required>
-
-                        <label for="fabricação">Ano de Fabricação:</label>
-                        <input type="number" min="1970" max="2099" step="1" id="fabricação" name="fabricação" required>
-                        
-                        <button> <a href="form.html"> Simular </a></button>
-                    </section>
-                </Form>
-            </div>
+<body>
+    <nav class="navbar">
+        <ul>
+            <div class="nav-container">
+                <div class="navbarToggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="navbarMenu">
+                    <a href="../index.html">
+                        <span class="nav-item-home">Home</span>
+                    </a>
+                    <a href="../index.html">
+                        <span class="nav-item">Serviços</span>
+                    </a>
+                    <a href="#contato">
+                        <span class="nav-item">Contato</span>
+                    </a>
+                    <a href="../vida.html">
+                        <span class="nav-item">Vida</span>
+                    </a>                    
+                    <a href="../auto.html">
+                        <span class="nav-item">Auto</span>
+                    </a> 
+                    <a href="../casa.html">
+                        <span class="nav-item">Casa</span>
+                    </a> 
+                </div>
+            </ul>
+        </nav>
+        <div class="">
             <div class="main" id="main">
                 <div class="main-container-form">
                     <div class="main-content">
@@ -138,11 +47,86 @@
                     </div>
                 </div>
             </div>
+            <form>
+                <section>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+            
+                    <label for="estado-civil">Estado Civil:</label>
+                    <select id="estado-civil" name="estado-civil" required>
+                        <option value=""></option>
+                        <option value="solteiro">Solteiro(a)</option>
+                        <option value="casado">Casado(a)</option>
+                        <option value="divorciado">Divorciado(a)</option>
+                        <option value="viuvo">Viúvo(a)</option>
+                    </select>
+            
+                    <br>
+                    <label for="cep">CEP:</label>
+                    <input type="number" id="cep" name="cep" required>
+            
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento" required>
+            
+                    <label for="genero">Gênero:</label>
+                    <br>
+                    <select id="genero" name="genero" required>
+                        <option value=""></option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                    <br>
+                    <label for="modelo-carro">Marca do Veículo:</label>
+                    <select id="modelo-carro" name="modelo-carro" required>
+                        <option value=""></option>
+                        <option value="amazon">Amazon</option>
+                        <option value="avellox">Avellox</option>
+                        <option value="bajaj">Bajaj</option>
+                        <option value="bmw">BMW</option>
+                        <option value="brp">BRP</option>
+                        <option value="bull">Bull</option>
+                        <option value="cfmoto">CFMoto</option>
+                        <option value="dafra">Dafra</option>
+                        <option value="ducati">Ducati</option>
+                        <option value="haojue">Haojue</option>
+                        <option value="harley">Harley-Davidson</option>
+                        <option value="honda-moto">Honda</option>
+                        <option value="kawasaki">Kawasaki</option>
+                        <option value="ktm">KTM</option>
+                        <option value="kymco">Kymco</option>
+                        <option value="ll">LL Motors</option>
+                        <option value="motocar">Motocar</option>
+                        <option value="motorino">Motorino</option>
+                        <option value="mottu">Mottu</option>
+                        <option value="royal-enfield">Royal Enfield</option>
+                        <option value="shineray">Shineray</option>
+                        <option value="sousa">Sousa</option>
+                        <option value="suzuki-moto">Suzuki</option>
+                        <option value="traxx">Traxx</option>
+                        <option value="triumph-moto">Triumph</option>
+                        <option value="vespa">Vespa</option>
+                        <option value="vmoto">Vmoto</option>
+                        <option value="voltz">Voltz</option>
+                        <option value="watts">Watts</option>
+                        <option value="yamaha">Yamaha</option>
+                    </select>
+            
+                    <label for="modelo">Modelo:</label>
+                    <input type="text" id="modelo" name="modelo" required>
+            
+                    <label for="fabricação">Ano de Fabricação:</label>
+                    <input type="number" min="1970" max="2099" step="1" id="fabricação" name="fabricação" required>
+                    
+                    <button> <a href="form.html"> Simular </a></button>
+                </section>
+            </Form>
         </div>
-        <div class="direitos">
-            <p>Copyright 2023 - Todos os direitos reservados - Dornelles Seguros</p>
-        </div>
-        <div class="loader"></div>
-        <script src="../config.js"></script>
-    </body>
+    </div>
+    <div class="direitos">
+        <p>Copyright 2023 - Todos os direitos reservados - Dornelles Seguros</p>
+    </div>
+    <div class="loader"></div>
+    <script src="../config.js"></script>
+</body>
 </html>
